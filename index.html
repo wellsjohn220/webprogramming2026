@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscript Form To Google Sheet</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="hero">
+        <h3>Coming Soon</h3>
+        <h1>New Web Site <br />On the Way</h1>
+        <p>Subscribe for more details </p>
+        <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Your email id" required />
+            <input class="form-control" id="Reg" name="Reg" type="hidden">
+            <input class="form-control" id="RegTime" name="RegTime" type="hidden">
+            <button type="submit"><img src="send-icon.png" alt="" width="30px" onclick="generateDateReg();"/></button>
+        </form>
+        <span id="msg"></span>
+    </div>
+
+    <script src="script.js"> </script>
+    <br />
+    <hr />
+    <a href="https://docs.google.com/spreadsheets/d/1MCw5WHXaWKrZFwzHklMaotQCDBJZip1OUMA1WYkP-z4/edit" target="_blank">View the Reg</a>
+    
+</body>
+
+</html>
